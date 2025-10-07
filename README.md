@@ -8,26 +8,18 @@ providing stepwise hints, and answering natural language questions — all throu
 
 ## 🚀 Quick Start
 
-**Clone the repository**
-   ```bash
-   git clone https://github.com/yourname/tutorSys.git
-   cd tutorSys
+### 1. **Clone the repository**
+```bash
+git clone https://github.com/yourname/tutorSys.git
+cd tutorSys'''
 
-## 🧩 Environment Setup
+### 2. **🧩 Environment Setup**
 
 Use the following commands to create and activate the environment:
 
-   ```bash
-   # Create the environment (this may take several minutes)
-   conda env create -f tutorVLM_env.yaml
-   
-   # Activate it
-   conda activate tutorVLM
+```bash
+# Create the environment (this may take several minutes)
+conda env create -f tutorVLM_env.yaml
 
-## 🖥️ Run the Interface
-
-Once the environment is activated, launch the interactive tutor GUI:
-
-   ```bash
-   # Run the main Streamlit interface
-   streamlit run code_tutor_interface.py
+# Activate it
+conda activate tutorVLM'''
