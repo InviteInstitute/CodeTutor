@@ -17,12 +17,17 @@ providing stepwise hints, and answering natural language questions — all throu
 
 Use the following commands to create and activate the environment:
 
-```bash
-# Create the environment (this may take several minutes)
-conda env create -f tutorVLM_env.yaml
+   ```bash
+   # Create the environment (this may take several minutes)
+   conda env create -f tutorVLM_env.yaml
+   
+   # Activate it
+   conda activate tutorVLM
 
-# Activate it
-conda activate tutorVLM
+## 🖥️ Run the Interface
 
+Once the environment is activated, launch the interactive tutor GUI:
 
-
+   ```bash
+   # Run the main Streamlit interface
+   streamlit run code_tutor_interface.py
