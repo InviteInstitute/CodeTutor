@@ -8,7 +8,7 @@ providing stepwise hints, and answering natural language questions — all throu
 
 ## 🚀 Quick Start
 
-1. **Clone the repository**
+**Clone the repository**
    ```bash
    git clone https://github.com/yourname/tutorSys.git
    cd tutorSys
